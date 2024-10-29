@@ -1,0 +1,10 @@
+.shell{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-device-width: 1024px){
+        margin-left: 10px;
+        margin-right: 10px;      
+    }
+}

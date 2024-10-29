@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif; 
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@import "../scss/shell";
+@import "../scss/header";
+@import "../scss/navbar";
+@import "../scss/sponsors";
+@import "../scss/banner";
+@import "../scss/series";

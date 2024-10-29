@@ -1,0 +1,33 @@
+.navbar {
+    height: 55px;
+    background-color: #1e1e1e;
+  .navbar_inner {
+    .navbar_box {
+      .box_items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        .box_item {
+          list-style-type: none;
+          padding: 17px; 
+
+          &:hover{
+            background-color: #5c5c5c;
+          }
+
+          &:last-child{
+            background-color: #1e1e1e;
+          }
+
+          .item_link{
+            display: flex;
+            i{
+                margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

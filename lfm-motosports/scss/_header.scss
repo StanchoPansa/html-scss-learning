@@ -1,0 +1,101 @@
+.header {
+  .inner_header {
+    .header_searchbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      .searchbar_logo {
+        .logo_style {
+          display: flex;
+          height: 50px;
+        }
+      }
+      .searchbar_search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #2e2e2e;
+
+        i {
+          margin-right: 20px;
+          margin-left: 20px;
+        }
+
+        input {
+          background-color: #2e2e2e;
+          border-style: none;
+          width: 100%;
+        }
+
+        &:hover{
+            opacity: 0.8;
+            background-color: #5c5c5c;
+
+            input{
+                background-color: #5c5c5c;
+            }
+        }
+      }
+      .searchbar_details {
+        display: flex;
+        align-items: center;
+        .details_notifications {
+          display: flex;
+          a {
+            font-size: 25px;
+            margin-right: 25px;
+            border: 5px solid transparent;
+
+            &:hover{
+                background-color: #5c5c5c;
+                border: 5px solid #5c5c5c;
+                border-radius: 2px;
+              }
+          }
+
+          .details_donate {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            font-size: 15px;
+            a {
+              font-size: 15px;
+              margin-right: 0px;
+            }
+
+            p {
+              font-size: 13px;
+            }
+
+            i {
+              margin-right: 5px;
+            }
+          }
+        }
+        .details_account {
+          display: flex;
+          align-items: flex-end;
+
+          &:hover{
+            color: #a7a7a7;
+          }
+
+          i {
+            font-size: 45px;
+            margin-right: 5px;
+          }
+
+          .account_details {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

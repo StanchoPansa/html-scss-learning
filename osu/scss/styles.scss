@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Lato:wght@300&display=swap');
+
+body{
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-color: #161519;
+    font-family: 'Allerta', sans-serif;
+}
+
+@import "scss/shell";
+@import "scss/navigation";
+@import "scss/wrapper";
+@import "scss/dashboard";
+@import "scss/content";
+@import "scss/news";
+@import "scss/sidebar";
+@import "scss/chart";
+@import "scss/songs";
+@import "scss/footer";

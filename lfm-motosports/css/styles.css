@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap");
+body {
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif; }
+  body a {
+    color: white;
+    text-decoration: none; }
+
+.shell {
+  max-width: 1380px;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.header .inner_header .header_searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px; }
+  .header .inner_header .header_searchbar .searchbar_logo .logo_style {
+    display: flex;
+    height: 50px; }
+  .header .inner_header .header_searchbar .searchbar_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #2e2e2e; }
+    .header .inner_header .header_searchbar .searchbar_search i {
+      margin-right: 20px;
+      margin-left: 20px; }
+    .header .inner_header .header_searchbar .searchbar_search input {
+      background-color: #2e2e2e;
+      border-style: none;
+      width: 100%; }
+    .header .inner_header .header_searchbar .searchbar_search:hover {
+      opacity: 0.8;
+      background-color: #5c5c5c; }
+      .header .inner_header .header_searchbar .searchbar_search:hover input {
+        background-color: #5c5c5c; }
+  .header .inner_header .header_searchbar .searchbar_details {
+    display: flex;
+    align-items: center; }
+    .header .inner_header .header_searchbar .searchbar_details .details_notifications {
+      display: flex; }
+      .header .inner_header .header_searchbar .searchbar_details .details_notifications a {
+        font-size: 25px;
+        margin-right: 25px;
+        border: 5px solid transparent; }
+        .header .inner_header .header_searchbar .searchbar_details .details_notifications a:hover {
+          background-color: #5c5c5c;
+          border: 5px solid #5c5c5c;
+          border-radius: 2px; }
+      .header .inner_header .header_searchbar .searchbar_details .details_notifications .details_donate {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        font-size: 15px; }
+        .header .inner_header .header_searchbar .searchbar_details .details_notifications .details_donate a {
+          font-size: 15px;
+          margin-right: 0px; }
+        .header .inner_header .header_searchbar .searchbar_details .details_notifications .details_donate p {
+          font-size: 13px; }
+        .header .inner_header .header_searchbar .searchbar_details .details_notifications .details_donate i {
+          margin-right: 5px; }
+    .header .inner_header .header_searchbar .searchbar_details .details_account {
+      display: flex;
+      align-items: flex-end; }
+      .header .inner_header .header_searchbar .searchbar_details .details_account:hover {
+        color: #a7a7a7; }
+      .header .inner_header .header_searchbar .searchbar_details .details_account i {
+        font-size: 45px;
+        margin-right: 5px; }
+      .header .inner_header .header_searchbar .searchbar_details .details_account .account_details {
+        display: flex;
+        flex-direction: column; }
+
+.navbar {
+  height: 55px;
+  background-color: #1e1e1e; }
+  .navbar .navbar_inner .navbar_box .box_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px; }
+    .navbar .navbar_inner .navbar_box .box_items .box_item {
+      list-style-type: none;
+      padding: 17px; }
+      .navbar .navbar_inner .navbar_box .box_items .box_item:hover {
+        background-color: #5c5c5c; }
+      .navbar .navbar_inner .navbar_box .box_items .box_item:last-child {
+        background-color: #1e1e1e; }
+      .navbar .navbar_inner .navbar_box .box_items .box_item .item_link {
+        display: flex; }
+        .navbar .navbar_inner .navbar_box .box_items .box_item .item_link i {
+          margin-right: 5px; }
+
+.sponsors .inner_sponsors {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px; }
+  .sponsors .inner_sponsors .sponsors_support {
+    font-size: 13px; }
+    .sponsors .inner_sponsors .sponsors_support p {
+      padding-bottom: 5px; }
+    .sponsors .inner_sponsors .sponsors_support .support_box {
+      display: flex; }
+      .sponsors .inner_sponsors .sponsors_support .support_box img {
+        height: 25px;
+        margin-right: 10px; }
+  .sponsors .inner_sponsors .sponsors_servers {
+    padding-top: 25px;
+    margin-left: -100px; }
+    .sponsors .inner_sponsors .sponsors_servers i {
+      color: green; }
+    .sponsors .inner_sponsors .sponsors_servers a {
+      text-decoration: underline;
+      text-transform: uppercase; }
+      .sponsors .inner_sponsors .sponsors_servers a:hover {
+        color: #5c5c5c; }
+  .sponsors .inner_sponsors .sponsors_socials {
+    font-size: 13px;
+    text-align: end; }
+    .sponsors .inner_sponsors .sponsors_socials p {
+      padding-bottom: 5px; }
+    .sponsors .inner_sponsors .sponsors_socials i {
+      font-size: 22px;
+      margin-right: 5px; }
+      .sponsors .inner_sponsors .sponsors_socials i:last-child {
+        margin-right: 0px; }
+      .sponsors .inner_sponsors .sponsors_socials i:hover {
+        color: #5c5c5c; }
+
+.banner .inner_banner {
+  margin-bottom: 30px; }
+  .banner .inner_banner .banner_box {
+    height: 190px; }
+
+.series .inner_series {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .series .inner_series h2 {
+    font-size: 25px; }
+  .series .inner_series .series_options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 600px;
+    background-color: #1e1e1e;
+    border-radius: 40px; }
+    .series .inner_series .series_options .options_game {
+      padding: 20px 50px 20px 50px; }
+      .series .inner_series .series_options .options_game img {
+        height: 35px; }
+      .series .inner_series .series_options .options_game:hover {
+        background-color: #5c5c5c;
+        border-radius: 40px; }
+      .series .inner_series .series_options .options_game:last-child {
+        padding: 20px 65px 20px 65px; }
